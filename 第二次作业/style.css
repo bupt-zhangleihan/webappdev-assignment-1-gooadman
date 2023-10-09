@@ -1,0 +1,121 @@
+body {
+	/* font-family: helvetica, arial, sans-serif; */
+	margin: 0;
+	padding: 0;
+	display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+	color: #fa0606;
+	text-align: center;
+}
+
+
+#left-container {
+	/* left: 0px; */
+	order:-1; /*左边栏放到最左边*/
+}
+
+#right-container {
+	right: 0px;
+	order:1;
+}
+
+.container {
+	background-color: #eee;
+	width: 15%;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.plant-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.plant {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+/* https://codepen.io/Rotarepmi/pen/rjpNZY */
+
+
+.jar-walls {
+
+	height: 80%;
+	width: 60%;
+	background: #09abd8;
+	border-radius: 1rem;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 0.5;
+	z-index: 1;
+	display:flex;
+	align-items: center;
+}
+
+.jar-top {
+
+	width: 50%;
+	height: 5%;
+	background: #2ddcc8;
+	position: absolute;
+	bottom: 80.5%;
+	left: 25%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.jar-bottom {
+	width: 30%;
+
+	height: 1%;
+	background: #0cdfc6;
+	opacity: 0.7;
+	position: relative;
+
+}
+
+
+.dirt {
+	width: 60%;
+	height: 5%;
+	background: #3a241d;
+	position: absolute;
+	border-radius: 0 0 1rem 1rem;
+	bottom: 1%;
+	left: 20%;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+
+.jar-glossy-long {
+	width: 3%;
+	height: 20%;
+	background: #ddfbff;
+	border-radius: 2rem;
+	position: absolute;
+	bottom: 20%;
+	left: 5%;
+
+}
+
+.jar-glossy-short {
+	width: 3%;
+	height: 5%;
+	border-radius: 2rem;
+	background: #ddfbff;
+	position: absolute;
+	bottom: 45%;
+	left: 5%;
+}
