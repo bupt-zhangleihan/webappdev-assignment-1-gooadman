@@ -46,9 +46,7 @@ AnmPlayer.createSvgFilterElement = function(R, G, B, A, RO, GO, BO) {
         AnmPlayer.svgRoot = document.createElementNS(NS, "svg");       
         AnmPlayer.svgRoot.setAttribute("style", "display:none");
         document.body.appendChild(AnmPlayer.svgRoot);                   
-    }  #检查是否已经存在一个全局的SVG根元素（AnmPlayer.svgRoot）。如果不存
-    在，它会创建一个新的SVG根元素，设置其样式为"display:none"，然后将其附加到
-    文档的<body>元素中。
+    }  #检查是否已经存在一个全局的SVG根元素（AnmPlayer.svgRoot）。如果不存在，它会创建一个新的SVG根元素，设置其样式为"display:none"，然后将其附加到文档的<body>元素中。
 
 
     var filter = document.createElementNS(NS, "filter"); #创建一个新的SVG滤镜元素，以便在后续的代码中添加滤镜效果。这里通过createElementNS方法指定XML命名空间，即前面定义的NS
