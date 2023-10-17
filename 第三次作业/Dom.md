@@ -1,6 +1,6 @@
 选取Dom中的Document接口作为讲解对象
 
-选取游戏“以撒的结合”灰机wiki网页作为示例 https://isaac.huijiwiki.com/wiki
+选取游戏“以撒的结合”灰机wiki网页作为示例 https://isaac.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5
 
 以下面这段代码为例：
 ```js
